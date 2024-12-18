@@ -6,7 +6,7 @@
     // request
     if(isset($_GET['option'])){
 
-        switch($_GET[option]){
+        switch($_GET['option']){
             case 'status':
                 $data['status'] = 'SUCCESS';
                 $data['data'] = 'API running OK!';
